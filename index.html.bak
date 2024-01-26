@@ -3,16 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>E-School</title>
   <link rel="stylesheet" href="style/main.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
   <script src="script/main.js"></script>
 </head>
 
@@ -21,10 +19,9 @@
     class="bg-green-50 self-stretch flex w-full flex-col items-center pt-7 pb-12 px-16 max-md:max-w-full max-md:px-5">
     <!-- #region Nav -->
     <nav class="flex w-full items-stretch justify-between gap-5 px-0.5 max-md:max-w-full max-md:flex-wrap">
-      <!-- #region logo -->
-      <a href="index.html"
-        class="aspect-[3.36] object-contain object-center w-[198px] overflow-hidden shrink-0 max-w-full">
-        <svg viewBox="0 0 199 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- #region logo --> <a href="index.html"
+        class="aspect-[3.36] object-contain object-center w-[198px] overflow-hidden shrink-0 max-w-full"><svg
+          viewBox="0 0 199 59" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_1_1821)">
             <path
               d="M61.2915 17.4143V39.6695C61.2915 40.5772 61.0919 41.4513 60.7594 42.2245C60.2273 43.4348 59.3293 44.4433 58.1654 45.1157L48.8536 50.5282L39.1095 56.2097C38.3778 56.6131 37.613 56.8821 36.8148 57.0165C35.5511 57.1846 34.2208 56.9493 33.0568 56.3442C32.9903 56.3106 32.9238 56.2769 32.8573 56.2433L28.2679 53.5539L13.8347 45.1157C12.6707 44.4433 11.7728 43.4012 11.2407 42.2245C10.8748 41.4177 10.7086 40.5772 10.7086 39.6695V17.4143C10.7086 15.1618 11.9058 13.0775 13.8347 11.9681L29.1991 2.99204L31.8596 1.4456L32.8573 0.874095C34.0878 0.168112 35.4513 -0.100834 36.8148 0.100875C37.613 0.20173 38.3778 0.470676 39.1095 0.874095L48.8536 6.55558L58.1654 12.0017C60.0942 13.0775 61.2915 15.1618 61.2915 17.4143Z"
@@ -137,10 +134,7 @@
               <rect width="72" height="59" fill="white" />
             </clipPath>
           </defs>
-        </svg>
-      </a>
-      <!-- #endregion logo -->
-      <!-- #region menu -->
+        </svg> </a><!-- #endregion logo --><!-- #region menu -->
       <ul class="self-center flex items-start justify-between gap-5 my-auto max-md:max-w-full max-md:flex-wrap">
         <li><a href="books.html"
             class="text-black text-base self-center my-auto hover:text-emerald-500 focus:text-emerald-500">Books</a>
@@ -154,196 +148,139 @@
         <li><a href="blog.html"
             class="text-black text-base self-center my-auto hover:text-emerald-500 focus:text-emerald-500">Blog</a></li>
         <li><a href="#"
-            class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 self-stretch grow justify-center px-7 py-3 rounded-[33px] max-md:px-5 hover:bg-emerald-600 focus:bg-emerald-600">Sign
+            class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 self-stretch grow justify-center px-7 py-3 rounded-[33px] max-md:px-5 hover:bg-sky-500 focus:bg-sky-500">Sign
             in</a></li>
-      </ul>
-      <!-- #endregion menu -->
-    </nav>
-    <!-- #endregion Nav -->
-
-    <!-- #region Hero -->
+      </ul><!-- #endregion menu -->
+    </nav><!-- #endregion Nav --><!-- #region Hero -->
     <section class="swiper w-full max-w-[1170px] flex-col items-stretch mb-3.5 max-md:max-w-full">
-      <div class="swiper-wrapper mt-16 max-md:max-w-full max-md:mt-10">
-        <!-- slide 1 -->
-        <div class="swiper-slide gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-
-          <!-- Left Section -->
+      <div class="swiper-wrapper mt-16 max-md:max-w-full max-md:mt-10"><!-- slide 1 -->
+        <div class="swiper-slide gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"><!-- Left Section -->
           <article class="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
             <div class="flex grow flex-col mt-7 max-md:mt-10">
               <h2 class="text-orange-600 text-base self-stretch">Are you ready to Learn?</h2>
               <h1
                 class="text-emerald-500 text-5xl font-bold leading-[70px] self-stretch mt-7 max-md:text-4xl max-md:leading-[65px]">
-                Learn With fun<br />on <span class="text-emerald-500">any schedule</span>
-              </h1>
-              <p class="text-neutral-500 text-base leading-9 self-stretch max-w-[396px] mt-9 max-md:mr-1.5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.
-              </p>
-              <a href="#"
-                class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 justify-center mt-9 px-9 py-3 rounded-[33px] self-start max-md:px-5 hover:bg-emerald-600 focus:bg-emerald-600">
-                Get Started
-              </a>
+                Learn With fun<br>on <span class="text-emerald-500">any schedule</span></h1>
+              <p class="text-neutral-500 text-base leading-9 self-stretch max-w-[396px] mt-9 max-md:mr-1.5">Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p><a href="#"
+                class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 justify-center mt-9 px-9 py-3 rounded-[33px] self-start max-md:px-5 hover:bg-sky-500 focus:bg-sky-500">Get
+                Started</a>
             </div>
-          </article>
-
-          <!-- Right Section -->
-          <div class="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
-            <img src="images/learning.webp" alt="Learning"
+          </article><!-- Right Section -->
+          <div class="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0"><img
+              src="images/learning.webp" alt="Learning"
               class="aspect-[1.6] object-contain object-center w-full overflow-hidden max-md:max-w-full max-md:mt-10">
           </div>
-
-        </div>
-        <!-- slide 2 -->
-        <div class="swiper-slide gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-
-          <!-- Left Section -->
+        </div><!-- slide 2 -->
+        <div class="swiper-slide gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"><!-- Left Section -->
           <article class="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
             <div class="flex grow flex-col mt-7 max-md:mt-10">
               <h2 class="text-orange-600 text-base self-stretch">Are you ready to Learn?</h2>
               <h1
                 class="text-emerald-500 text-5xl font-bold leading-[70px] self-stretch mt-7 max-md:text-4xl max-md:leading-[65px]">
-                Learn With fun<br />on <span class="text-emerald-500">any schedule</span>
-              </h1>
-              <p class="text-neutral-500 text-base leading-9 self-stretch max-w-[396px] mt-9 max-md:mr-1.5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.
-              </p>
-              <a href="#"
-                class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 justify-center mt-9 px-9 py-3 rounded-[33px] self-start max-md:px-5 hover:bg-emerald-600 focus:bg-emerald-600">
-                Get Started
-              </a>
+                Learn With fun<br>on <span class="text-emerald-500">any schedule</span></h1>
+              <p class="text-neutral-500 text-base leading-9 self-stretch max-w-[396px] mt-9 max-md:mr-1.5">Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p><a href="#"
+                class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 justify-center mt-9 px-9 py-3 rounded-[33px] self-start max-md:px-5 hover:bg-emerald-600 focus:bg-emerald-600">Get
+                Started</a>
             </div>
-          </article>
-
-          <!-- Right Section -->
-          <div class="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
-            <img src="images/learning.webp" alt="Learning"
+          </article><!-- Right Section -->
+          <div class="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0"><img
+              src="images/learning.webp" alt="Learning"
               class="aspect-[1.6] object-contain object-center w-full overflow-hidden max-md:max-w-full max-md:mt-10">
           </div>
-
-        </div>
-        <!-- slide 3 -->
-        <div class="swiper-slide gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-
-          <!-- Left Section -->
+        </div><!-- slide 3 -->
+        <div class="swiper-slide gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"><!-- Left Section -->
           <article class="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
             <div class="flex grow flex-col mt-7 max-md:mt-10">
               <h2 class="text-orange-600 text-base self-stretch">Are you ready to Learn?</h2>
               <h1
                 class="text-emerald-500 text-5xl font-bold leading-[70px] self-stretch mt-7 max-md:text-4xl max-md:leading-[65px]">
-                Learn With fun<br />on <span class="text-emerald-500">any schedule</span>
-              </h1>
-              <p class="text-neutral-500 text-base leading-9 self-stretch max-w-[396px] mt-9 max-md:mr-1.5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.
-              </p>
-              <a href="#"
-                class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 justify-center mt-9 px-9 py-3 rounded-[33px] self-start max-md:px-5 hover:bg-emerald-600 focus:bg-emerald-600">
-                Get Started
-              </a>
+                Learn With fun<br>on <span class="text-emerald-500">any schedule</span></h1>
+              <p class="text-neutral-500 text-base leading-9 self-stretch max-w-[396px] mt-9 max-md:mr-1.5">Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p><a href="#"
+                class="text-white text-base whitespace-nowrap items-stretch bg-emerald-500 justify-center mt-9 px-9 py-3 rounded-[33px] self-start max-md:px-5 hover:bg-emerald-600 focus:bg-emerald-600">Get
+                Started</a>
             </div>
-          </article>
-
-          <!-- Right Section -->
-          <div class="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
-            <img src="images/learning.webp" alt="Learning"
+          </article><!-- Right Section -->
+          <div class="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0"><img
+              src="images/learning.webp" alt="Learning"
               class="aspect-[1.6] object-contain object-center w-full overflow-hidden max-md:max-w-full max-md:mt-10">
           </div>
         </div>
-      </div>
-      <!-- pagination -->
+      </div><!-- pagination -->
       <div class="swiper-pagination"></div>
-    </section>
-    <!-- #endregion Hero -->
+    </section><!-- #endregion Hero -->
   </header>
-
-  </header>
-  <main>
-    <!-- #region Course Statistics -->
-    <section class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-      <!-- Topic Section -->
+  <main><!-- #region Course Statistics -->
+    <section class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"><!-- Topic Section -->
       <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
         <div
           class="hover:shadow-2xl hover:bg-white bg-teal-50 flex flex-col items-center w-full px-16 py-12 rounded-xl max-md:mt-8 max-md:px-5">
           <img class="aspect-[0.78] object-contain object-center w-[66px] overflow-hidden max-w-full mt-1"
             alt="Book Icon" src="images/books.webp">
           <h1 class="text-slate-700 text-2xl font-medium self-stretch whitespace-nowrap mt-7" aria-label="Topic"><span
-              class="counter" data-count="1500">0</span>+
-            Topic
-          </h1>
+              class="counter" data-count="1500">0</span>+ Topic</h1>
           <div class="text-zinc-600 text-base self-stretch whitespace-nowrap mt-2.5" aria-label="Learn Anythings">Learn
             Anythings</div>
         </div>
-      </div>
-      <!-- Student Section -->
+      </div><!-- Student Section -->
       <div class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
         <div
           class="hover:shadow-2xl hover:bg-white bg-teal-50 flex flex-col items-stretch w-full px-12 py-12 rounded-xl max-md:mt-8 max-md:px-5">
           <img class="aspect-[0.96] object-contain object-center w-20 overflow-hidden self-center max-w-full"
             alt="Pen and Sing" src="images/notepad.webp">
           <h1 class="text-slate-700 text-2xl font-medium whitespace-nowrap mt-9" aria-label="Students"><span
-              class="counter" data-count="1800">0</span>+ Students
-          </h1>
+              class="counter" data-count="1800">0</span>+ Students</h1>
           <div class="text-zinc-600 text-base self-center whitespace-nowrap mt-4" aria-label="Learn Anythings">Learn
             Anythings</div>
         </div>
-      </div>
-      <!-- Test Tokens Section -->
+      </div><!-- Test Tokens Section -->
       <div class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
         <div
           class="hover:shadow-2xl hover:bg-white bg-teal-50 flex flex-col items-stretch w-full px-12 py-12 rounded-xl max-md:mt-8 max-md:px-5">
           <img class="aspect-[0.94] object-contain object-center w-[75px] overflow-hidden self-center max-w-full"
             alt="Test Taken" src="images/quill.webp">
           <h1 class="text-slate-700 text-2xl font-medium whitespace-nowrap mt-9" aria-label="Test Token"><span
-              class="counter" data-count="9">0</span>K+ Test Tokens
-          </h1>
+              class="counter" data-count="9">0</span>K+ Test Tokens</h1>
           <div class="text-zinc-600 text-base self-center whitespace-nowrap mt-4" aria-label="Learn Anythings">Learn
             Anythings</div>
         </div>
-      </div>
-      <!-- Student Section -->
+      </div><!-- Student Section -->
       <div class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
         <div
           class="hover:shadow-2xl hover:bg-white bg-teal-50 flex flex-col items-stretch w-full p-12 rounded-xl max-md:mt-8 max-md:px-5">
           <img class="aspect-[0.89] object-contain object-center w-[68px] overflow-hidden self-center max-w-full mt-2.5"
             alt="Books" src="images/dictionary.webp">
           <h1 class="text-slate-700 text-2xl font-medium whitespace-nowrap mt-9" aria-label="Student"><span
-              class="counter" data-count="2000">0</span>+ Students
-          </h1>
+              class="counter" data-count="2000">0</span>+ Students</h1>
           <div class="text-zinc-600 text-base self-center whitespace-nowrap mt-4" aria-label="Learn Anythings">Learn
             Anythings</div>
         </div>
       </div>
-    </section>
-    <!-- #endregion Course Statistics -->
-
-    <!-- #region Course-->
+    </section><!-- #endregion Course Statistics --><!-- #region Course-->
     <section class="self-stretch flex w-full flex-col items-center pt-7 pb-12 px-16 max-md:max-w-full max-md:px-5">
       <!-- Course Title -->
       <div class="text-slate-700 text-4xl font-bold whitespace-nowrap mt-28 max-md:mt-10" aria-role="heading"
-        aria-label="Online Courses">
-        Online Courses
-      </div>
-      <!-- Course Card -->
+        aria-label="Online Courses">Online Courses</div><!-- Course Card -->
       <div class="self-center w-full max-w-[1169px] mt-16 px-5 max-md:max-w-full max-md:mt-10">
         <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div class="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <div
               class="hover:shadow-2xl bg-white flex w-full grow flex-col items-stretch mx-auto px-5 py-7 rounded-2xl max-md:mt-7">
               <img loading="lazy" src="images/girl_blackboard.webp"
-                class="aspect-[1.41] object-contain object-center w-full overflow-hidden" />
+                class="aspect-[1.41] object-contain object-center w-full overflow-hidden">
               <h1 class="text-slate-700 text-2xl font-medium mt-7">Modern Psychology</h1>
-              <div class="text-zinc-600 text-base mt-3">1300 TK</div>
-              <button
-                class="text-white text-base items-stretch bg-emerald-500 justify-center mt-6 px-7 py-2 rounded-[33px] max-md:px-5">Buy
+              <div class="text-zinc-600 text-base mt-3">1300 TK</div><button
+                class="text-white text-base items-stretch bg-emerald-500 justify-center mt-6 px-7 py-2 rounded-[33px] max-md:px-5 hover:bg-sky-500 focus:bg-sky-500">Buy
                 Course</button>
               <form class="flex w-full items-stretch justify-between gap-5 mt-9 max-md:mr-1.5">
-                <div class="flex items-stretch justify-between gap-1.5">
-                  <img src="images/calander.webp" alt="calander"
+                <div class="flex items-stretch justify-between gap-1.5"><img src="images/calander.webp" alt="calander"
                     class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full">
                   <div class="text-zinc-600 text-base font-medium grow whitespace-nowrap mt-1.5 self-start">Start 20
-                    April, 2021
-                  </div>
+                    April, 2021</div>
                 </div>
-                <div class="flex items-stretch justify-between gap-1.5">
-                  <img src="images/people.webp" alt="people"
+                <div class="flex items-stretch justify-between gap-1.5"><img src="images/people.webp" alt="people"
                     class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full">
                   <div class="text-zinc-600 text-base font-medium self-center grow whitespace-nowrap my-auto">60 seats
                   </div>
@@ -355,22 +292,18 @@
             <div
               class="hover:shadow-2xl bg-white flex w-full grow flex-col items-stretch mx-auto px-5 py-7 rounded-2xl max-md:mt-7">
               <img loading="lazy" src="images/library.webp"
-                class="aspect-[1.41] object-contain object-center w-full overflow-hidden" />
+                class="aspect-[1.41] object-contain object-center w-full overflow-hidden">
               <h1 class="text-slate-700 text-2xl font-medium mt-7">Modern Psychology</h1>
-              <div class="text-zinc-600 text-base mt-3.5">1300 TK</div>
-              <button
-                class="text-white text-base items-stretch bg-emerald-500 justify-center mt-6 px-7 py-2 rounded-[33px] max-md:px-5"
-                onclick="buyCourse()">Buy Course</button>
+              <div class="text-zinc-600 text-base mt-3.5">1300 TK</div><button
+                class="text-white text-base items-stretch bg-emerald-500 justify-center mt-6 px-7 py-2 rounded-[33px] max-md:px-5  hover:bg-sky-500 focus:bg-sky-500">Buy
+                Course</button>
               <form class="flex w-full items-stretch justify-between gap-5 mt-9 max-md:mr-1.5">
-                <div class="flex items-stretch justify-between gap-1.5">
-                  <img src="images/calander.webp" alt="calander"
+                <div class="flex items-stretch justify-between gap-1.5"><img src="images/calander.webp" alt="calander"
                     class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full">
                   <div class="text-zinc-600 text-base font-medium grow whitespace-nowrap mt-1.5 self-start">Start 20
-                    April, 2021
-                  </div>
+                    April, 2021</div>
                 </div>
-                <div class="flex items-stretch justify-between gap-1.5">
-                  <img src="images/people.webp" alt="people"
+                <div class="flex items-stretch justify-between gap-1.5"><img src="images/people.webp" alt="people"
                     class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full">
                   <div class="text-zinc-600 text-base font-medium self-center grow whitespace-nowrap my-auto">60 seats
                   </div>
@@ -382,22 +315,18 @@
             <div
               class="hover:shadow-2xl bg-white flex w-full grow flex-col items-stretch mx-auto px-5 py-7 rounded-2xl max-md:mt-7">
               <img loading="lazy" src="images/working.webp"
-                class="aspect-[1.41] object-contain object-center w-full overflow-hidden" />
+                class="aspect-[1.41] object-contain object-center w-full overflow-hidden">
               <h1 class="text-slate-700 text-2xl font-medium mt-7">Modern Psychology</h1>
-              <div class="text-zinc-600 text-base mt-3.5">1300 TK</div>
-              <button
-                class="text-white text-base items-stretch bg-emerald-500 justify-center mt-6 px-7 py-2 rounded-[33px] max-md:px-5"
-                onclick="buyCourse()">Buy Course</button>
+              <div class="text-zinc-600 text-base mt-3.5">1300 TK</div><button
+                class="text-white text-base items-stretch bg-emerald-500 justify-center mt-6 px-7 py-2 rounded-[33px] max-md:px-5  hover:bg-sky-500 focus:bg-sky-500">Buy
+                Course</button>
               <form class="flex w-full items-stretch justify-between gap-5 mt-9 max-md:mr-1.5">
-                <div class="flex items-stretch justify-between gap-1.5">
-                  <img src="images/calander.webp" alt="calander"
+                <div class="flex items-stretch justify-between gap-1.5"><img src="images/calander.webp" alt="calander"
                     class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full">
                   <div class="text-zinc-600 text-base font-medium grow whitespace-nowrap mt-1.5 self-start">Start 20
-                    April, 2021
-                  </div>
+                    April, 2021</div>
                 </div>
-                <div class="flex items-stretch justify-between gap-1.5">
-                  <img src="images/people.webp" alt="people"
+                <div class="flex items-stretch justify-between gap-1.5"><img src="images/people.webp" alt="people"
                     class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full">
                   <div class="text-zinc-600 text-base font-medium self-center grow whitespace-nowrap my-auto">60 seats
                   </div>
@@ -407,42 +336,31 @@
           </div>
         </div>
       </div>
-      <div style="display: flex; justify-content: center; align-items: center;">
-        <button
-          class="header text-white text-base whitespace-nowrap items-stretch bg-emerald-500 self-center justify-center mt-10 px-7 py-2 rounded-[33px] max-md:px-5">
-          <a href="#" class="header-link" aria-label="All Courses">All Courses</a>
-        </button>
-      </div>
-    </section>
-    <!-- #region Testimonial -->
+      <div style="display:flex;justify-content:center;align-items:center"><button
+          class="header text-white text-base whitespace-nowrap items-stretch bg-emerald-500 self-center justify-center mt-10 px-7 py-2 rounded-[33px] max-md:px-5 hover:bg-sky-500 focus:bg-sky-500"><a
+            href="courses.html" class="header-link" aria-label="All Courses">All Courses</a></button></div>
+    </section><!-- #region Testimonial -->
     <section class="flex w-full flex-col items-center pt-7 pb-12 max-md:max-w-full max-md:px-5 text-center">
-      <div class="text-black text-4xl font-bold self-center whitespace-nowrap mt-24 max-md:mt-10"> Testimonial
-      </div>
+      <div class="text-black text-4xl font-bold self-center whitespace-nowrap mt-24 max-md:mt-10">Testimonial</div>
       <div class="self-center w-[753px] max-w-full mt-9 px-5">
-        <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <img loading="lazy" src="images/person.webp"
-            class="aspect-square object-contain object-center w-[120px] overflow-hidden shrink-0 max-w-full rounded-[50%] max-md:mt-10" />
-          <p class="text-black text-base leading-8 my-auto max-md:max-w-full max-md:mt-10">There are many variations
-            of
-            passages of Lorem Ipsum available, but the<br />majority have suffered alteration in some form, by
-            injected
-            humour,<br />or randomised words which don't look even slightly believable.</p>
+        <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0"><img loading="lazy"
+            src="images/person.webp"
+            class="aspect-square object-contain object-center w-[120px] overflow-hidden shrink-0 max-w-full rounded-[50%] max-md:mt-10">
+          <p class="text-black text-base leading-8 my-auto max-md:max-w-full max-md:mt-10">There are many variations of
+            passages of Lorem Ipsum available, but the<br>majority have suffered alteration in some form, by injected
+            humour,<br>or randomised words which don't look even slightly believable.</p>
         </div>
       </div>
-    </section>
-    <!-- #endregion Testimonial -->
+    </section><!-- #endregion Testimonial -->
   </main>
   <footer
     class="bg-zinc-800 self-stretch flex w-full flex-col items-center mt-20 pt-12 pb-8 px-16 max-md:max-w-full max-md:mt-10 max-md:px-5">
     <div class="flex w-full max-w-[1167px] flex-col items-stretch mt-1.5 max-md:max-w-full">
       <div class="max-md:max-w-full">
         <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div class="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
-            <!-- Intro Section -->
-            <div class="flex flex-col items-start max-md:mt-10">
-              <!-- #region Logo -->
-              <a href="index.html">
-                <svg class="aspect-[3.36] object-contain object-center w-[198px] overflow-hidden max-w-full"
+          <div class="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0"><!-- Intro Section -->
+            <div class="flex flex-col items-start max-md:mt-10"><!-- #region Logo --> <a href="index.html"><svg
+                  class="aspect-[3.36] object-contain object-center w-[198px] overflow-hidden max-w-full"
                   viewBox="0 0 199 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_1_1899)">
                     <path
@@ -556,62 +474,43 @@
                       <rect width="72" height="59" fill="white" />
                     </clipPath>
                   </defs>
-                </svg>
-              </a>
-              <!-- #endregion Logo -->
-              <div class="text-white text-base leading-8 self-stretch mt-14 max-md:mt-10"> Millions of people of all
-                ages
-                and from around <br /> the world are improving their lives with us </div>
+                </svg> </a><!-- #endregion Logo -->
+              <div class="text-white text-base leading-8 self-stretch mt-14 max-md:mt-10">Millions of people of all ages
+                and from around<br>the world are improving their lives with us</div>
             </div>
-          </div>
-          <!-- #region Links -->
-          <!-- Course Section -->
+          </div><!-- #region Links --><!-- Course Section -->
           <div class="flex flex-col items-stretch w-[19%] ml-5 max-md:w-full max-md:ml-0">
-            <div class="text-white text-base leading-8 mt-2 max-md:mt-10">
-              <span class="font-bold text-lg">Course</span> <br />
-              <a href="#" class="hover:text-emerald-500">Graphic Design</a> <br />
-              <a href="#" class="hover:text-emerald-500">Web Design</a> <br />
-              <a href="#" class="hover:text-emerald-500">Business</a> <br />
-              <a href="#" class="hover:text-emerald-500">Marketing</a> <br />
-              <a href="#" class="hover:text-emerald-500">Engineering</a>
-            </div>
-          </div>
-          <!-- Terms Section -->
+            <div class="text-white text-base leading-8 mt-2 max-md:mt-10"><span
+                class="font-bold text-lg">Course</span><br><a href="#" class="hover:text-emerald-500">Graphic
+                Design</a><br><a href="#" class="hover:text-emerald-500">Web Design</a><br><a href="#"
+                class="hover:text-emerald-500">Business</a><br><a href="#"
+                class="hover:text-emerald-500">Marketing</a><br><a href="#"
+                class="hover:text-emerald-500">Engineering</a></div>
+          </div><!-- Terms Section -->
           <div class="flex flex-col items-stretch w-[21%] ml-5 max-md:w-full max-md:ml-0">
-            <div class="text-white text-base leading-8 mt-2.5 max-md:mt-10">
-              <span class="font-bold">Terms</span> <br />
-              <a href="#" class="hover:text-emerald-500">Graphic Design</a> <br />
-              <a href="#" class="hover:text-emerald-500">Web Design</a> <br />
-              <a href="#" class="hover:text-emerald-500">Business</a> <br />
-              <a href="#" class="hover:text-emerald-500">Marketing</a> <br />
-              <a href="#" class="hover:text-emerald-500">Engineering</a>
-            </div>
-          </div>
-          <!-- Useful Link Section -->
+            <div class="text-white text-base leading-8 mt-2.5 max-md:mt-10"><span class="font-bold">Terms</span><br><a
+                href="#" class="hover:text-emerald-500">Graphic Design</a><br><a href="#"
+                class="hover:text-emerald-500">Web Design</a><br><a href="#"
+                class="hover:text-emerald-500">Business</a><br><a href="#"
+                class="hover:text-emerald-500">Marketing</a><br><a href="#"
+                class="hover:text-emerald-500">Engineering</a></div>
+          </div><!-- Useful Link Section -->
           <div class="flex flex-col items-stretch w-[14%] ml-5 max-md:w-full max-md:ml-0">
-            <div class="text-white text-base leading-8 mt-2 max-md:mt-10">
-              <span class="font-bold">Useful Link</span> <br />
-              <a href="#" class="hover:text-emerald-500">Graphic Design</a> <br />
-              <a href="#" class="hover:text-emerald-500">Web Design</a> <br />
-              <a href="#" class="hover:text-emerald-500">Business</a> <br />
-              <a href="#" class="hover:text-emerald-500">Marketing</a> <br />
-              <a href="#" class="hover:text-emerald-500">Engineering</a>
-            </div>
-          </div>
-          <!-- #endregion Links -->
+            <div class="text-white text-base leading-8 mt-2 max-md:mt-10"><span class="font-bold">Useful
+                Link</span><br><a href="#" class="hover:text-emerald-500">Graphic Design</a><br><a href="#"
+                class="hover:text-emerald-500">Web Design</a><br><a href="#"
+                class="hover:text-emerald-500">Business</a><br><a href="#"
+                class="hover:text-emerald-500">Marketing</a><br><a href="#"
+                class="hover:text-emerald-500">Engineering</a></div>
+          </div><!-- #endregion Links -->
         </div>
-      </div>
-      <!-- #region Copyright -->
+      </div><!-- #region Copyright -->
       <div
         class="text-stone-300 text-base leading-8 self-center whitespace-nowrap mt-24 max-md:mt-10 hover:text-emerald-500">
-        Copyright © 2024
-        21daysofcode.com
-      </div>
-      <!-- #endregion Copyright -->
+        Copyright © 2024 21daysofcode.com</div><!-- #endregion Copyright -->
     </div>
   </footer>
-  <script>
-    const swiper = new Swiper(".swiper", {
+  <script>const swiper = new Swiper(".swiper", {
       // Optional parameters
       direction: "horizontal",
       loop: true,
@@ -631,8 +530,7 @@
       scrollbar: {
         el: ".swiper-scrollbar",
       },
-    });
-  </script>
+    });</script>
 </body>
 
 </html>
